@@ -1,20 +1,19 @@
 package com.example.authvertical.fragments;
 
-import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.example.authvertical.db_and_models.database.AppDataBase;
 import com.example.authvertical.network.APIHelper;
 import com.example.authvertical.utils.AppConstants;
 import com.example.authvertical.utils.DialogUtils;
 import com.example.authvertical.utils.MyAppPref;
 import com.kaopiz.kprogresshud.KProgressHUD;
-
+import java.util.Objects;
 import butterknife.ButterKnife;
 
 public abstract class BaseFragment extends Fragment implements View.OnClickListener {
@@ -33,7 +32,7 @@ MyAppPref myAppPref;
         myAppPref = MyAppPref.getInstance(getActivity());
     }
 
-    public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanseState) {
+    public View onCreateView(@NonNull  LayoutInflater inflater, ViewGroup parent, Bundle savedInstanseState) {
         View view = provideYourFragmentView(inflater, parent, savedInstanseState);
         ButterKnife.bind(this, view);
         return view;
@@ -43,7 +42,7 @@ MyAppPref myAppPref;
     KProgressHUD kProgressHUD;
 
     protected void showProgress() {
-        kProgressHUD = KProgressHUD.create(getActivity())
+        kProgressHUD = KProgressHUD.create(Objects.requireNonNull(getActivity()))
                 .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)
                 .setLabel("Please wait")
 //                .setDetailsLabel("Downloading data")
@@ -64,13 +63,10 @@ MyAppPref myAppPref;
         android.app.AlertDialog.Builder alertDialogBuilder = new android.app.AlertDialog.Builder(getActivity());
         alertDialogBuilder.setTitle("Reader Not Found");
         alertDialogBuilder.setMessage("Plug in a reader and try again.").setCancelable(false).setPositiveButton("Ok",
-                new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                    }
-                });
+                (dialog, id) -> Objects.requireNonNull(getActivity()).finish());
 
         android.app.AlertDialog alertDialog = alertDialogBuilder.create();
-        if (!getActivity().isFinishing()) {
+        if (!Objects.requireNonNull(getActivity()).isFinishing()) {
             alertDialog.show();
         }
     }
