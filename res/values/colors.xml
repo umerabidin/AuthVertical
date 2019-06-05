@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3345</color>
+    <color name="colorPrimaryDark">#2c3345</color>
+    <color name="colorAccent">#2c3345</color>
+    <color name="fb_btn_color">#375896</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="grey">#C2C2C2</color>
+    <color name="input_field_bg_color">#e7f0fd</color>
+    <color name="login_btn_color">#3981fb</color>
+    <color name="btn1_bg">#6DA2FF</color>
+    <color name="btn2_bg">#FA6F42</color>
+    <color name="btn3_bg">#00BCD4</color>
+</resources>

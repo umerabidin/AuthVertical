@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jaiselrahman:HintSpinner:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3e6c5d6b83343e423d20579101e5ec4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3e6c5d6b83343e423d20579101e5ec4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jaiselrahman/HintSpinner/1.0.0/fab79872ad11769978829b205525464a73910b31/HintSpinner-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

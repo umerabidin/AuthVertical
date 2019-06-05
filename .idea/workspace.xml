@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="210eb3a9-a327-426c-9599-772170757728" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_admin_Desktop_Android_Studio_AuthVertical_b_libs_base64_2_3_7_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_admin_Desktop_Android_Studio_AuthVertical_b_libs_dpuareu_aar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_framework_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_exifinterface_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_3_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jaiselrahman_HintSpinner_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_yalantis_ucrop_2_2_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_intuit_sdp_sdp_android_1_0_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_8_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_8_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_kaopiz_kprogresshud_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_karumi_dexter_5_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_9_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_2_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_3_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthVertical_b.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/core/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/lifecycle/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/lifecycle/livedata/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/lifecycle/livedata/core/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/lifecycle/viewmodel/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/persistence/db/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/persistence/db/framework/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/persistence/room/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/asynclayoutinflater/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/compat/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/constraint/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coordinatorlayout/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreui/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreutils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/cursoradapter/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/customview/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/design/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/documentfile/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/drawerlayout/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/exifinterface/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/fragment/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/interpolator/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/loader/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/localbroadcastmanager/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/mediacompat/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/print/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/slidingpanelayout/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/swiperefreshlayout/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/transition/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v4/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/appcompat/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/cardview/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/recyclerview/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/viewpager/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/versionedparcelable/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/butterknife/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/digitalpersona/uareu/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/authvertical/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/intuit/sdp/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/jaiselrahman/hintspinner/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/kaopiz/kprogresshud/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/karumi/dexter/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/yalantis/ucrop/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/de/hdodenhof/circleimageview/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/CaptureFingerprintActivity_ViewBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/activities/Dashboard_ViewBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/activities/LoginActivity_ViewBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/db_and_models/database/AppDataBase_Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/db_and_models/database/dao/DaoAccess_Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/fragments/AddCitizen_ViewBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/fragments/AddPoliceOfficer_ViewBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/fragments/IssueTrafficChallan_ViewBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/fragments/VerifyChallanDetailsSheet_ViewBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/fragments/ViewCitizen_ViewBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/example/authvertical/fragments/WelcomeScreen_ViewBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/out/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/30K1f7vw9CtmAvLDdfUUxefqgXE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3ytg1zH0svzkuL2iA_XWrNzyMrc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5EZnz3hw6LMZ_2jOPeXjFcJPS_k=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5rOdx0_COBK_6Xy4aY24lIy3ORI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6ZJrVlzgMyc6SPv3Ga9imtQugOM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6mJIxtTbzV6WjLaBV72R0fVAQno=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/7sDtwjbVvENQnMaicLotZElrgms=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9txL4+p8DuVcgF5SgpT9u1vnKMQ=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AqQfXO9l44c0xmTKvI6MaigtM84=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/BTL2L1CjiPY8HuvEPyx2a+5SZJc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CAaYgCSAfiT_sbV4BGbhSKKgppg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/DCiuE6pe9OOwTud+IZcRwU03Z4s=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/DEoHdXvmbSPnttr3YzLjuM0ChOY=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/EEFaFgZHfgAMPe6kF4jDIbPK308=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KT_MEiM2BZboEWI9wZSvnuxqihI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KwdYnFdyn6iiVI2l5Tp1DAMmV10=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KxuBMuM6mbeZdyt3yeCQX0WH4ZI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MCu5SaxAumEFdX+QpOZXxClwgx4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/N1yUzZo3mGsAN+oQ34NcQFwFsBs=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NiLLwRUuWLjqqMCOZVP2V+UuSW4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PYqd9wZCeZwX6g9LUQZdZHosvOc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PnXsh+eRLJj49NmLUZZyOVVEdT4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PzT35jjx3guUlAoKY69+3PYr+a8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q2MfKscjsXkRf0_97x2eKkGDELs=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ql0A1+8+xKAPDfF1pee_RpMsGus=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RHfhwM26NjRMtqLSenYXdbzQWDo=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SJvaKiGTR2JMJZQH7QNQlKH1Kdg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SOgL_hBVl9oFEEKh5n8m4O1VJBU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TgMWEiEmOb9ygZ0K_QdOA2yBQL0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UMn+e8B6FGiqZE8eRQRHqNs4U1U=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ukz+NKZ+Crefs37XNOOK2nEsGro=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VjLQkwVnf55Ow_xk3OxuGh5cFUM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/W0oVDP7jeF_bedukSZH7_v2PYrM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WXE9ZHRZOzlVYYRbbZTYlRc3kn0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WYNhRiJms1oY+Y_dvD0_QWsuh1E=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/XMuBYOPiPX7kFo5U5AQOz6RwNF4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/XzO8OVqcXjENr6uTofav8VQPTj4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YbfPTR6rL9eXpKsud2Or9Z2ORM4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/aJtDJ65_V9TKaTgyp0Gp72gOYl4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bgV6N0M0w0YHrKlDQL5uK_PGZmw=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dLB2Y7t4vdMwZug0IfCSTjb3Zg8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/eWjGhDyTi1BfntZCpkqHzH43VjE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/f5SrMo9CIZyOjOxjuOXfuhpruw8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fa9osDfQhMHUnn0TwYmh0o3aI1Y=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/g0OntJkMTF+nb0Gu2OHFnNibxoA=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gJysLcBvhAqzxRqM5InLLYw+SQI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ghhdq1DoKzFdWb0UYuoC08qzeP4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iFDxTXvqIfGXI3JMxvkXmKb35Yc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kV35YUoFGDZ2SNuae5OvqwLCS7A=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ljo22MKoyxbtxymuUkYuggqmBfo=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nwWT9Oprkj9S+vMXWNtBgOkJnew=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pADO+hizNXb3+k+A_mxJ_LdIxtc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pxSlv9unltY3sihft5OnR63OCSQ=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/q7BQRpWma9DKvfYEWPrWwOzGmAQ=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qzitG8cAbGm7ZzgNjmsKDJw509c=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sw7Yy_w54_REZ0OxjjP+tvk4p6s=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uav9FUysTkoNwbLpj0TXXcj52+k=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vk8Z5cXN6bx_vhcUPS7pGiD7YD0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xBj_jexKfKGCPp0Am6y8Y2oE6MI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xP1IT+zuMfdHLBVIyMuu9p+BYoU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xp3sizeejBZ6CghAqb3HBqbhPM4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zPu3kMK6NAdj4gs26Jsvir6wPUM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/30K1f7vw9CtmAvLDdfUUxefqgXE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/3ytg1zH0svzkuL2iA_XWrNzyMrc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/5EZnz3hw6LMZ_2jOPeXjFcJPS_k=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/5rOdx0_COBK_6Xy4aY24lIy3ORI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/6ZJrVlzgMyc6SPv3Ga9imtQugOM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/6mJIxtTbzV6WjLaBV72R0fVAQno=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/7sDtwjbVvENQnMaicLotZElrgms=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/9txL4+p8DuVcgF5SgpT9u1vnKMQ=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/AqQfXO9l44c0xmTKvI6MaigtM84=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/BTL2L1CjiPY8HuvEPyx2a+5SZJc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/CAaYgCSAfiT_sbV4BGbhSKKgppg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/DCiuE6pe9OOwTud+IZcRwU03Z4s=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/DEoHdXvmbSPnttr3YzLjuM0ChOY=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/EEFaFgZHfgAMPe6kF4jDIbPK308=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/KT_MEiM2BZboEWI9wZSvnuxqihI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/KwdYnFdyn6iiVI2l5Tp1DAMmV10=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/KxuBMuM6mbeZdyt3yeCQX0WH4ZI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/MCu5SaxAumEFdX+QpOZXxClwgx4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/N1yUzZo3mGsAN+oQ34NcQFwFsBs=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/NiLLwRUuWLjqqMCOZVP2V+UuSW4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/PYqd9wZCeZwX6g9LUQZdZHosvOc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/PnXsh+eRLJj49NmLUZZyOVVEdT4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/PzT35jjx3guUlAoKY69+3PYr+a8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Q2MfKscjsXkRf0_97x2eKkGDELs=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Ql0A1+8+xKAPDfF1pee_RpMsGus=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/RHfhwM26NjRMtqLSenYXdbzQWDo=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/SJvaKiGTR2JMJZQH7QNQlKH1Kdg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/SOgL_hBVl9oFEEKh5n8m4O1VJBU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/TgMWEiEmOb9ygZ0K_QdOA2yBQL0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/UMn+e8B6FGiqZE8eRQRHqNs4U1U=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Ukz+NKZ+Crefs37XNOOK2nEsGro=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/VjLQkwVnf55Ow_xk3OxuGh5cFUM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/W0oVDP7jeF_bedukSZH7_v2PYrM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/WXE9ZHRZOzlVYYRbbZTYlRc3kn0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/WYNhRiJms1oY+Y_dvD0_QWsuh1E=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/XMuBYOPiPX7kFo5U5AQOz6RwNF4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/XzO8OVqcXjENr6uTofav8VQPTj4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/YbfPTR6rL9eXpKsud2Or9Z2ORM4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/aJtDJ65_V9TKaTgyp0Gp72gOYl4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/bgV6N0M0w0YHrKlDQL5uK_PGZmw=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/dLB2Y7t4vdMwZug0IfCSTjb3Zg8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/eWjGhDyTi1BfntZCpkqHzH43VjE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/f5SrMo9CIZyOjOxjuOXfuhpruw8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/fa9osDfQhMHUnn0TwYmh0o3aI1Y=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/g0OntJkMTF+nb0Gu2OHFnNibxoA=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/gJysLcBvhAqzxRqM5InLLYw+SQI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ghhdq1DoKzFdWb0UYuoC08qzeP4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/iFDxTXvqIfGXI3JMxvkXmKb35Yc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/kV35YUoFGDZ2SNuae5OvqwLCS7A=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ljo22MKoyxbtxymuUkYuggqmBfo=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/nwWT9Oprkj9S+vMXWNtBgOkJnew=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/pADO+hizNXb3+k+A_mxJ_LdIxtc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/pxSlv9unltY3sihft5OnR63OCSQ=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/q7BQRpWma9DKvfYEWPrWwOzGmAQ=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/qzitG8cAbGm7ZzgNjmsKDJw509c=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/sw7Yy_w54_REZ0OxjjP+tvk4p6s=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/uav9FUysTkoNwbLpj0TXXcj52+k=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/vk8Z5cXN6bx_vhcUPS7pGiD7YD0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/xBj_jexKfKGCPp0Am6y8Y2oE6MI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/xP1IT+zuMfdHLBVIyMuu9p+BYoU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/xp3sizeejBZ6CghAqb3HBqbhPM4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/zPu3kMK6NAdj4gs26Jsvir6wPUM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/instant_app_manifest/debug/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/instant_run_merged_manifests/debug/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/core/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/livedata/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/livedata/core/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/viewmodel/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/db/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/db/framework/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/persistence/room/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/asynclayoutinflater/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coordinatorlayout/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/cursoradapter/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/customview/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$animator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$interpolator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/documentfile/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/drawerlayout/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/exifinterface/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/interpolator/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/loader/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/localbroadcastmanager/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/print/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/slidingpanelayout/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/swiperefreshlayout/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/cardview/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/cardview/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/cardview/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/cardview/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/cardview/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/cardview/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/viewpager/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/versionedparcelable/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/butterknife/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/digitalpersona/uareu/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/BuildConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/CaptureFingerprintActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/CaptureFingerprintActivity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/CaptureFingerprintActivity$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/CaptureFingerprintActivity$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/CaptureFingerprintActivity$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/CaptureFingerprintActivity$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/CaptureFingerprintActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/CaptureFingerprintActivity_ViewBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/EnrollmentActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/EnrollmentActivity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/EnrollmentActivity$EnrollmentCallback$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/EnrollmentActivity$EnrollmentCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/EnrollmentActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/GetCapabilitiesActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/GetCapabilitiesActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/GetReaderActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/GetReaderActivity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/GetReaderActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/Globals$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/Globals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/IdentificationActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/IdentificationActivity$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/IdentificationActivity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/IdentificationActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$animator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$interpolator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$mipmap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R$xml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/RoleEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/StreamImageActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/StreamImageActivity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/StreamImageActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/UareUSampleJava.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/VerificationActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/VerificationActivity$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/VerificationActivity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/VerificationActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/BaseActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/Dashboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/Dashboard_ViewBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/LoginActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/LoginActivity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/LoginActivity$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/LoginActivity$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/LoginActivity$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/LoginActivity$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/LoginActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/LoginActivity_ViewBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/MainActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/activities/SelectRoleActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/adapter/DrawerAdapter$DrawerItemClick.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/adapter/DrawerAdapter$ViewHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/adapter/DrawerAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/AppDataBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/AppDataBase_Impl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/AppDataBase_Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/dao/DaoAccess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/dao/DaoAccess_Impl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/dao/DaoAccess_Impl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/dao/DaoAccess_Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/repository/DatabaseRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/type_converters/CitizenTypeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/type_converters/DateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/type_converters/PermissionsTypeConverter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/type_converters/PermissionsTypeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/type_converters/RoleTypeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/database/type_converters/UserTypeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/get_citizen/CitizenInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/get_citizen/GetCitizenEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/get_citizen/Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/login_entity/LoginCitizen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/login_entity/LoginEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/login_entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/login_entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/db_and_models/violations_list/Violation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddAccountFragment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddCitizen_ViewBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddNewDoctor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddNewDoctor$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddNewDoctor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddPatientVisitInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddPoliceOfficer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddPoliceOfficer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddPoliceOfficer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddPoliceOfficer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/AddPoliceOfficer_ViewBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/BaseFragment$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/BaseFragment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/BirthCertificate$OnFragmentInteractionListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/BirthCertificate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/DatePickerFragment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/DeathCertificate$OnFragmentInteractionListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/DeathCertificate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/IssueTrafficChallan$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/IssueTrafficChallan$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/IssueTrafficChallan$3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/IssueTrafficChallan$3$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/IssueTrafficChallan$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/IssueTrafficChallan$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/IssueTrafficChallan$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/IssueTrafficChallan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/IssueTrafficChallan_ViewBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/MarriageCertificate$OnFragmentInteractionListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/MarriageCertificate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/TransferBalanceFragment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/VerifyChallanDetailsSheet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/VerifyChallanDetailsSheet$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/VerifyChallanDetailsSheet$VerifyChallanDetailAdapter$ViewHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/VerifyChallanDetailsSheet$VerifyChallanDetailAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/VerifyChallanDetailsSheet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/VerifyChallanDetailsSheet_ViewBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/ViewCitizen$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/ViewCitizen$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/ViewCitizen$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/ViewCitizen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/ViewCitizen_ViewBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/ViewPatientHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/WelcomeScreen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/fragments/WelcomeScreen_ViewBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/interfaces/ImagePickerCallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/network/APIHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/network/RefitAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/AppConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/BloodGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/DialogUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/DropDownItems.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/HelperMethods$BitmapResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/HelperMethods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/ImagePickerActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/ImagePickerActivity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/ImagePickerActivity$PickerOptionListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/ImagePickerActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/ImageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/Martial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/MyAppPref.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/NoDefaultSpinner$SpinnerAdapterProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/NoDefaultSpinner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/RoleEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/UserRoles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/authvertical/utils/drawer_items/TabsItems.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/intuit/sdp/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/intuit/sdp/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/intuit/sdp/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/intuit/sdp/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/jaiselrahman/hintspinner/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/kaopiz/kprogresshud/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/kaopiz/kprogresshud/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/kaopiz/kprogresshud/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/kaopiz/kprogresshud/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/kaopiz/kprogresshud/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$animator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/karumi/dexter/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$animator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$interpolator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/yalantis/ucrop/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/de/hdodenhof/circleimageview/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/de/hdodenhof/circleimageview/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/de/hdodenhof/circleimageview/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/nex_53ov_23.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/nex_license_2.3_53ov.lic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/nex_license_2.3_tcsc.lic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/nex_license_2.3_tcss.lic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/nex_model_2.3_tcsc.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/nex_model_2.3_tcss.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_jni_libs/debug/out/base64-2.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_jni_libs/debug/out/dpuareu.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_jni_libs/debug/out/dpuareu.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_jni_libs/debug/out/okio-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/processed_res/debug/processDebugResources/out/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/signing_config/debug/out/signing-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/27.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/34.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/35.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/37.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/38.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/40.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/42.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/43.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/44.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/45.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/49.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/50.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/51.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/52.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/53.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/54.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/55.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/56.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/57.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/58.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/60.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/61.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/62.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/63.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/65.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/externalLibsDexMerger/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libdpfj.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libdpfpdd.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libdpfpdd5000.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libdpfpdd7k.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libdpfpdd_4k.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libdpfpdd_ptapi.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libdpfr6.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libdpfr7.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libdpuareu_jni.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libnex_sdk.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libtfm.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libdpfj.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libdpfpdd.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libdpfpdd5000.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libdpfpdd7k.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libdpfpdd_4k.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libdpfpdd_ptapi.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libdpfr6.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libdpfr7.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libdpuareu_jni.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libnex_sdk.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libtfm.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libdpfj.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libdpfpdd.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libdpfpdd5000.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libdpfpdd7k.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libdpfpdd_4k.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libdpfpdd_ptapi.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libdpfr6.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libdpfr7.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libdpuareu_jni.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libnex_sdk.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libtfm.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/outputs/apk/debug/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/base64-2.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/dpuareu.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/dpuareu.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/okio-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proguard-project.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-hdpi/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-mdpi/spinner_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-mdpi/user_placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-v21/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-v21/ic_menu_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-v21/ic_menu_send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-v21/ic_menu_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-v24/black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-xhdpi/spinner_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-xhdpi/user_placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-xxxhdpi/spinner_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable-xxxhdpi/user_placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable/dialog_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable/gradient_spinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable/input_field_no_background_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable/input_field_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/drawable/user_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-ldpi/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-mdpi/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-mdpi/spinner_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-mdpi/user_placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-v21/ic_menu_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-v21/ic_menu_send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-v21/ic_menu_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-v24/black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-xhdpi/spinner_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-xhdpi/user_placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-xxxhdpi/spinner_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-xxxhdpi/user_placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable/black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable/dialog_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable/gradient_spinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable/input_field_no_background_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable/input_field_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable/user_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_add_citizen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_add_new_doctor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_capture_stream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_engine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_get_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_image_picker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_issue_traffic_challan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_select_role.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/activity_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/app_bar_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/chall_detail_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/content_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/drawer_menu_list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/drop_down_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_add_account.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_add_patient_visit_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_add_police_officer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_birth_certificate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_death_certificate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_marriage_certificate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_transfer_balance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_verify_challan_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_view_citizen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_view_patient_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/fragment_welcome_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/image_picker_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/layout/nav_header_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/values/drawables.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/xml/device_filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/xml/file_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/CaptureFingerprintActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/EnrollmentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/GetCapabilitiesActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/GetReaderActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/Globals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/IdentificationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/RoleEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/StreamImageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/UareUSampleJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/VerificationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/activities/BaseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/activities/Dashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/activities/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/activities/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/activities/SelectRoleActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/adapter/DrawerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/AppDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/dao/DaoAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/repository/DatabaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/CitizenTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/DateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/GeometryConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/LocationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/LocationResultConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/ObjectConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/PermissionsTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/PhotoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/RoleTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/TypesConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/database/type_converters/UserTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/get_citizen/CitizenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/get_citizen/GetCitizenEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/get_citizen/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/login_entity/LoginCitizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/login_entity/LoginEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/login_entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/login_entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/db_and_models/violations_list/Violation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/AddAccountFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/AddCitizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/AddNewDoctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/AddPatientVisitInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/AddPoliceOfficer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/BaseFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/BirthCertificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/DatePickerFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/DeathCertificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/IssueTrafficChallan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/MarriageCertificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/TransferBalanceFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/VerifyChallanDetailsSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/ViewCitizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/ViewPatientHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/fragments/WelcomeScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/interfaces/ImagePickerCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/network/APIHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/network/RefitAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/AppConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/BloodGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/DialogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/DropDownItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/HelperMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/ImagePickerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/Martial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/MyAppPref.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/NoDefaultSpinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/RoleEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/UserRoles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/authvertical/utils/drawer_items/TabsItems.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/authvertical/fragments/IssueTrafficChallan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/example/authvertical/fragments/VerifyChallanDetailsSheet.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_issue_traffic_challan.xml" />
+        <option value="$PROJECT_DIR$/src/dairyinfosystem/ExampleUnitTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="709" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AuthVertical_b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuthVertical_b" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="Nexus_6P_API_28" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthVertical_b" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="AuthVertical_b" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="210eb3a9-a327-426c-9599-772170757728" name="Default Changelist" comment="" />
+      <created>1559758516793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559758516793</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.19789983" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32901135" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="WIFI ADB ULTIMATE" />
+      <window_info anchor="right" id="Android WiFi ADB" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Drawable Viewer" />
+      <window_info anchor="right" id="Vector Thumnails" />
+      <window_info anchor="right" id="Preview" weight="0.32956383" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/example/authvertical/fragments/VerifyChallanDetailsSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_issue_traffic_challan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#613#628#0" expanded="true" />
+            <element signature="e#664#679#0" expanded="true" />
+            <element signature="e#716#730#0" expanded="true" />
+            <element signature="e#7083#7098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dairyinfosystem/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dairyinfosystem/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/authvertical/fragments/IssueTrafficChallan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

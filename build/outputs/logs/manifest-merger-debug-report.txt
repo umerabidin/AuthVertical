@@ -1,0 +1,359 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:102:9-110:20
+	android:grantUriPermissions
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:106:13-47
+	android:authorities
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:104:13-60
+	android:exported
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:105:13-37
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:103:13-67
+manifest
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:1-113:12
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:1-113:12
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:1-113:12
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:1-113:12
+MERGED from [dpuareu.aar] /Users/admin/.gradle/caches/transforms-2/files-2.1/ef757b719eb85c31b66c00ac9023c142/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.jaiselrahman:HintSpinner:1.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f3e6c5d6b83343e423d20579101e5ec4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.karumi:dexter:5.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/87b713d55a8e99c7f7580833d6d0413a/AndroidManifest.xml:17:1-32:12
+MERGED from [com.github.yalantis:ucrop:2.2.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/0a37d17492e2be51e5f91895e5d37afd/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1a55391ab2edffa60302f15f3e66de97/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e66f026c274b8014f8f9af1d96fb4c09/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/aa947f7ca36ba70742635b5db9bf574c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/940eb7e1ad7b9e2c737be44dc6b1a4ad/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1fcf0c5b1517d215e2602301c3ba4d5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/3f85b3c1f064a1f6e63694938b4b5525/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ccb571ea83262b582343f6eaa691f002/AndroidManifest.xml:17:1-22:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/admin/.gradle/caches/transforms-2/files-2.1/6b1dac5bff99f16295b9adacc8aecc63/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/753aa36c8b289f0bc443d9fbbd887be3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ccba6e21f6d4c8d2b72c30c62a7623d0/AndroidManifest.xml:2:1-15:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f53ba1a852b7509bd39cbfa4a3f1f304/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a85ad8cd56c57ebc5a986f24a2cee83d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e77dc118ea86b2c019f50930613a632d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/45f23d90401a93f280b63619b46efe3d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a965da9948cf5da2caad5c92176fbe92/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a71a19432da9c02981f9f1f2b1c526ef/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/c605e5c308e983db2afc2868b0135640/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1849a0a70a0261458dcc26823d06c12f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f451e3bc2b2f92e5e31c8c4fab21d63c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f40d694c7aec51bdc1033772ac3f9c70/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/bc20cc660f158b8830e625dbbb7c086d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/fe3be81028f7303e432ba562e87cfa7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/38a12ac985e950aa655fcb3985f611f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/09668fd5d1bae3b12310e0951733cc82/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/6bb41411147fa19278de3e26650d5fe0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/315739a5cdb508b7ab2602a9b1adba73/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/12bc21b0ab5075492c60af6555aaed90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c64d6bcf107dc5413d9719bfa1d8d41b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/439b2ca27fc4a36368de5253d98672c0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7806dc53b2c6e24dd990f52e03f2e5de/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/3bcc46112413ab27e1fcd4ffff45c2b8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/8e19772c7d4a448b4cff68e1feb97f9c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/eaddcc2f93c292920863b85b977f2a4a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/85b3bda7c4b9633b78a7efdd0a24a9e5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6749d22aa0b7acc8dc65d8c1bac28449/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/bfc828256e1dc4da5a00a7f7d4ba396d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2572f451090828ad798d26525a52e854/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5115c37e90c7b688ed6f43a029ba68ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/64935fdfe0b32b6035d77f7944d9f37f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/bea1c32c13767af854c53dcaba113257/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/efc21cba410346b9bd062180e9fe4469/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:1-113:12
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:1-113:12
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:1-113:12
+	package
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:1-113:12
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:1-113:12
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.usb.host
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:5:5-62
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:5:19-59
+uses-feature#android.hardware.camera
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:6:5-7:35
+	android:required
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:8:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:11:22-78
+application
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:13:5-111:19
+MERGED from [com.karumi:dexter:5.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/87b713d55a8e99c7f7580833d6d0413a/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/87b713d55a8e99c7f7580833d6d0413a/AndroidManifest.xml:26:5-30:19
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1a55391ab2edffa60302f15f3e66de97/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1a55391ab2edffa60302f15f3e66de97/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/aa947f7ca36ba70742635b5db9bf574c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/aa947f7ca36ba70742635b5db9bf574c/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/753aa36c8b289f0bc443d9fbbd887be3/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/753aa36c8b289f0bc443d9fbbd887be3/AndroidManifest.xml:9:5-20
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ccba6e21f6d4c8d2b72c30c62a7623d0/AndroidManifest.xml:11:5-13:38
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ccba6e21f6d4c8d2b72c30c62a7623d0/AndroidManifest.xml:11:5-13:38
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c64d6bcf107dc5413d9719bfa1d8d41b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c64d6bcf107dc5413d9719bfa1d8d41b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/439b2ca27fc4a36368de5253d98672c0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/439b2ca27fc4a36368de5253d98672c0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c64d6bcf107dc5413d9719bfa1d8d41b/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from [com.kaopiz:kprogresshud:1.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ccba6e21f6d4c8d2b72c30c62a7623d0/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:18:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:17:9-44
+activity#com.example.authvertical.activities.LoginActivity
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:19:9-30:20
+	android:screenOrientation
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:23:13-45
+	android:exported
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:22:13-36
+	android:configChanges
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:21:13-74
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:20:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:28:27-74
+activity#com.example.authvertical.GetReaderActivity
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:31:9-45:20
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:34:13-45
+	android:configChanges
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:32:13-46
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:35:13-37:29
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:38:13-40:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:39:17-90
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:39:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:42:13-44:57
+	android:resource
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:44:17-54
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:43:17-79
+activity#com.example.authvertical.GetCapabilitiesActivity
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:46:9-53:20
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:49:13-45
+	android:configChanges
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:48:13-74
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:47:13-52
+activity#com.example.authvertical.CaptureFingerprintActivity
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:54:9-62:20
+	android:screenOrientation
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:58:13-49
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:57:13-45
+	android:configChanges
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:56:13-74
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:55:13-55
+activity#com.example.authvertical.StreamImageActivity
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:63:9-70:20
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:66:13-45
+	android:configChanges
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:65:13-74
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:64:13-48
+activity#com.example.authvertical.EnrollmentActivity
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:71:9-78:20
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:74:13-45
+	android:configChanges
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:73:13-74
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:72:13-47
+activity#com.example.authvertical.VerificationActivity
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:79:9-86:20
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:82:13-45
+	android:configChanges
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:81:13-74
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:80:13-49
+activity#com.example.authvertical.IdentificationActivity
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:87:9-94:20
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:90:13-45
+	android:configChanges
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:89:13-74
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:88:13-51
+activity#com.example.authvertical.activities.Dashboard
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:95:9-99:59
+	android:label
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:98:13-61
+	android:configChanges
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:97:13-59
+	android:theme
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:99:13-56
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:96:13-49
+activity#com.example.authvertical.utils.ImagePickerActivity
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:100:9-63
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:100:19-60
+uses-sdk
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+MERGED from [dpuareu.aar] /Users/admin/.gradle/caches/transforms-2/files-2.1/ef757b719eb85c31b66c00ac9023c142/AndroidManifest.xml:7:5-9:41
+MERGED from [dpuareu.aar] /Users/admin/.gradle/caches/transforms-2/files-2.1/ef757b719eb85c31b66c00ac9023c142/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jaiselrahman:HintSpinner:1.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f3e6c5d6b83343e423d20579101e5ec4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jaiselrahman:HintSpinner:1.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f3e6c5d6b83343e423d20579101e5ec4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.karumi:dexter:5.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/87b713d55a8e99c7f7580833d6d0413a/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/87b713d55a8e99c7f7580833d6d0413a/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.yalantis:ucrop:2.2.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/0a37d17492e2be51e5f91895e5d37afd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/0a37d17492e2be51e5f91895e5d37afd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1a55391ab2edffa60302f15f3e66de97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1a55391ab2edffa60302f15f3e66de97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e66f026c274b8014f8f9af1d96fb4c09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e66f026c274b8014f8f9af1d96fb4c09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/aa947f7ca36ba70742635b5db9bf574c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/aa947f7ca36ba70742635b5db9bf574c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/940eb7e1ad7b9e2c737be44dc6b1a4ad/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/940eb7e1ad7b9e2c737be44dc6b1a4ad/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1fcf0c5b1517d215e2602301c3ba4d5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1fcf0c5b1517d215e2602301c3ba4d5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/3f85b3c1f064a1f6e63694938b4b5525/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/3f85b3c1f064a1f6e63694938b4b5525/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ccb571ea83262b582343f6eaa691f002/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ccb571ea83262b582343f6eaa691f002/AndroidManifest.xml:20:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/admin/.gradle/caches/transforms-2/files-2.1/6b1dac5bff99f16295b9adacc8aecc63/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/admin/.gradle/caches/transforms-2/files-2.1/6b1dac5bff99f16295b9adacc8aecc63/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/753aa36c8b289f0bc443d9fbbd887be3/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/753aa36c8b289f0bc443d9fbbd887be3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ccba6e21f6d4c8d2b72c30c62a7623d0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ccba6e21f6d4c8d2b72c30c62a7623d0/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f53ba1a852b7509bd39cbfa4a3f1f304/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f53ba1a852b7509bd39cbfa4a3f1f304/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a85ad8cd56c57ebc5a986f24a2cee83d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a85ad8cd56c57ebc5a986f24a2cee83d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e77dc118ea86b2c019f50930613a632d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e77dc118ea86b2c019f50930613a632d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/45f23d90401a93f280b63619b46efe3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/45f23d90401a93f280b63619b46efe3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a965da9948cf5da2caad5c92176fbe92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a965da9948cf5da2caad5c92176fbe92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a71a19432da9c02981f9f1f2b1c526ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a71a19432da9c02981f9f1f2b1c526ef/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/c605e5c308e983db2afc2868b0135640/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/c605e5c308e983db2afc2868b0135640/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1849a0a70a0261458dcc26823d06c12f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1849a0a70a0261458dcc26823d06c12f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f451e3bc2b2f92e5e31c8c4fab21d63c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f451e3bc2b2f92e5e31c8c4fab21d63c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f40d694c7aec51bdc1033772ac3f9c70/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f40d694c7aec51bdc1033772ac3f9c70/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/bc20cc660f158b8830e625dbbb7c086d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/bc20cc660f158b8830e625dbbb7c086d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/fe3be81028f7303e432ba562e87cfa7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/fe3be81028f7303e432ba562e87cfa7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/38a12ac985e950aa655fcb3985f611f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/38a12ac985e950aa655fcb3985f611f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/09668fd5d1bae3b12310e0951733cc82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/09668fd5d1bae3b12310e0951733cc82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/6bb41411147fa19278de3e26650d5fe0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/6bb41411147fa19278de3e26650d5fe0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/315739a5cdb508b7ab2602a9b1adba73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/315739a5cdb508b7ab2602a9b1adba73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/12bc21b0ab5075492c60af6555aaed90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/12bc21b0ab5075492c60af6555aaed90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c64d6bcf107dc5413d9719bfa1d8d41b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c64d6bcf107dc5413d9719bfa1d8d41b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/439b2ca27fc4a36368de5253d98672c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/439b2ca27fc4a36368de5253d98672c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7806dc53b2c6e24dd990f52e03f2e5de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7806dc53b2c6e24dd990f52e03f2e5de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/3bcc46112413ab27e1fcd4ffff45c2b8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/3bcc46112413ab27e1fcd4ffff45c2b8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/8e19772c7d4a448b4cff68e1feb97f9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/8e19772c7d4a448b4cff68e1feb97f9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/eaddcc2f93c292920863b85b977f2a4a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/eaddcc2f93c292920863b85b977f2a4a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/85b3bda7c4b9633b78a7efdd0a24a9e5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/85b3bda7c4b9633b78a7efdd0a24a9e5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6749d22aa0b7acc8dc65d8c1bac28449/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6749d22aa0b7acc8dc65d8c1bac28449/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/bfc828256e1dc4da5a00a7f7d4ba396d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/bfc828256e1dc4da5a00a7f7d4ba396d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2572f451090828ad798d26525a52e854/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2572f451090828ad798d26525a52e854/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5115c37e90c7b688ed6f43a029ba68ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5115c37e90c7b688ed6f43a029ba68ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/64935fdfe0b32b6035d77f7944d9f37f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/64935fdfe0b32b6035d77f7944d9f37f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/bea1c32c13767af854c53dcaba113257/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/bea1c32c13767af854c53dcaba113257/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/efc21cba410346b9bd062180e9fe4469/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/efc21cba410346b9bd062180e9fe4469/AndroidManifest.xml:20:5-44
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+		INJECTED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:107:13-109:54
+	android:resource
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:109:17-51
+	android:name
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:108:17-67
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:5.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/87b713d55a8e99c7f7580833d6d0413a/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:5.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/87b713d55a8e99c7f7580833d6d0413a/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:5.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/87b713d55a8e99c7f7580833d6d0413a/AndroidManifest.xml:28:13-60
