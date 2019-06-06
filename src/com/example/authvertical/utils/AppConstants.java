@@ -42,6 +42,10 @@ public class AppConstants {
     public String transfer_ammount = "citizenportal/transfertoaccount";
     public String validate_accountnumber = "banksystem/account/getAccountByNumber";
     public String medical_login_url = "";
+    public String fingure_print_citizen_portal_url="citizenportal/fingerprintlogin";
+    public String fingure_print_retailer_login_url="retailsystem/rsu/fingerprintlogin";
+    public String fingure_print_police_login_url="policesystem/psu/fingerprintlogin";
+    public String fingure_print_medical_login_url="";
     HashMap<String, String> apiParams;
     HashMap<String, String> headers;
 

@@ -145,15 +145,15 @@ public class CaptureFingerprintActivity extends BaseActivity implements OnItemSe
                     roleId = roles.optInt("roleId");
                     name = roles.optString("name");
                     if (roleId == 1) {
-                        request_api = appConstants.login_url;
+                        request_api = appConstants.fingure_print_login_url;
                     } else if (roleId == 2) {
-                        request_api = appConstants.police_login_url;
+                        request_api = appConstants.fingure_print_police_login_url;
                     } else if (roleId == 3) {
-                        request_api = appConstants.medical_login_url;
+                        request_api = appConstants.fingure_print_medical_login_url;
                     } else if (roleId == 4) {
-                        request_api = appConstants.retailer_login_url;
+                        request_api = appConstants.fingure_print_retailer_login_url;
                     } else if (roleId == 5) {
-                        request_api = appConstants.citizen_portal_login;
+                        request_api = appConstants.fingure_print_citizen_portal_url;
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
