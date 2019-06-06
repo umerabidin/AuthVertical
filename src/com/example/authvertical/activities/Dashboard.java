@@ -24,6 +24,9 @@ import com.example.authvertical.fragments.AddNewDoctor;
 import com.example.authvertical.fragments.AddPatientVisitInfo;
 import com.example.authvertical.fragments.AddPoliceOfficer;
 import com.example.authvertical.fragments.IssueTrafficChallan;
+import com.example.authvertical.fragments.RetailerPay;
+import com.example.authvertical.fragments.TransferBalanceFragment;
+import com.example.authvertical.fragments.ViewChallans;
 import com.example.authvertical.fragments.ViewCitizen;
 import com.example.authvertical.fragments.ViewPatientHistory;
 import com.example.authvertical.fragments.WelcomeScreen;
@@ -117,8 +120,6 @@ public class Dashboard extends BaseActivity implements DrawerAdapter.DrawerItemC
             // update the main content by replacing fragments
             Fragment fragment = getHomeFragment();
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-//            fragmentTransaction.setCustomAnimations(android.R.anim.fade_in,
-//                    android.R.anim.fade_out);
             fragmentTransaction.replace(R.id.main_container, fragment);
             fragmentTransaction.commitAllowingStateLoss();
         };
@@ -130,12 +131,7 @@ public class Dashboard extends BaseActivity implements DrawerAdapter.DrawerItemC
     }
 
     private Fragment getHomeFragment() {
-//        switch (navItemIndex) {
-//            case 1:
-//                return AddCitizen.newInstance();
-//            default:
         return WelcomeScreen.newInstance();
-//        }
     }
 
     @Override
@@ -153,14 +149,6 @@ public class Dashboard extends BaseActivity implements DrawerAdapter.DrawerItemC
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         }
-
-
-//        roles.add(new UserRoles("1", "Civic"));
-//        roles.add(new UserRoles("2", "Police System"));
-//        roles.add(new UserRoles("3", "Medical System"));
-//        roles.add(new UserRoles("4", "Retailer System"));
-//        roles.add(new UserRoles("5", "CitizenInfo Portal"));
-
 
         if (roleEvent.getRole() == 1) {
             if (position == 1) {
@@ -191,41 +179,64 @@ public class Dashboard extends BaseActivity implements DrawerAdapter.DrawerItemC
                 showFragment(ViewPatientHistory.newInstance());
             }
 
-        }
+        } else if (roleEvent.getRole() == 4) {
+            if (position == 0) {
+                showFragment(RetailerPay.newInstance());
+            }
+        } else if (roleEvent.getRole() == 5) {
+            if (position == 0) {
+                ViewChallans viewChallans = ViewChallans.newInstance();
+                viewChallans.setListener((fragment, fine, ticketId) -> {
+                    TransferBalanceFragment transferBalanceFragment = TransferBalanceFragment.newInstance("Pay Challan", fine
+                            , ticketId);
+                    transferBalanceFragment.setListener(new TransferBalanceFragment.CallBack() {
+                        @Override
+                        public void paymentTransferred(boolean isCompleted) {
 
-//        if (roleEvent.getRole() == 1) {
-//            if (position == 0) {
-//                showFragment(new AddNewDoctor());
-//            } else if (position == 1) {
-//                showFragment(AddPatientVisitInfo.newInstance());
-//            } else if (position == 2) {
-//                showFragment(ViewPatientHistory.newInstance());
-//            }
-//
-//        } else if (roleEvent.getRole() == 2) {
-//            if (position == 0) {
-//                showFragment(AddPoliceOfficer.newInstance());
-//            } else if (position == 1) {
-//                showFragment(IssueTrafficChallan.newInstance());
-//            }
-//
-//        } else if (roleEvent.getRole() == 3) {
-//            if (position == 0) {
-//                showFragment(AddCitizen.newInstance());
-//            }
-//
-//        }
+                        }
+
+                        @Override
+                        public void challanPaid(boolean isPaid) {
+                            viewChallans.challanPaid();
+                        }
+                    });
+                    if (fragment.equalsIgnoreCase(appConstants.claim_fragment)) {
+                        FragmentTransaction fragmentTransaction = Dashboard.this.getSupportFragmentManager().beginTransaction();
+                        fragmentTransaction.add(R.id.main_container, transferBalanceFragment);
+                        fragmentTransaction.addToBackStack(transferBalanceFragment.toString());
+                        fragmentTransaction.commit();
+                    } else {
+                        FragmentTransaction fragmentTransaction = Dashboard.this.getSupportFragmentManager().beginTransaction();
+                        fragmentTransaction.add(R.id.main_container, transferBalanceFragment);
+                        fragmentTransaction.addToBackStack(transferBalanceFragment.toString());
+                        fragmentTransaction.commit();
+                    }
+
+                });
+                showFragment(viewChallans);
+            } else if (position == 1) {
+                TransferBalanceFragment fragment = TransferBalanceFragment.newInstance("Transfer Balance", 0, "");
+                fragment.setListener(new TransferBalanceFragment.CallBack() {
+                    @Override
+                    public void paymentTransferred(boolean isCompleted) {
+                        showFragment(WelcomeScreen.newInstance());
+                    }
+
+                    @Override
+                    public void challanPaid(boolean isPaid) {
+                    }
+                });
+                showFragment(fragment);
+            }
+        }
 
     }
 
 
     private void showFragment(Fragment fragment) {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-//            fragmentTransaction.setCustomAnimations(android.R.anim.fade_in,
-//                    android.R.anim.fade_out);
         fragmentTransaction.replace(R.id.main_container, fragment);
         fragmentTransaction.commitAllowingStateLoss();
-
     }
 
     @Override

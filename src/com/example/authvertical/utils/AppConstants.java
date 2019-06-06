@@ -1,8 +1,10 @@
 package com.example.authvertical.utils;//package com.example.authvertical.utils;
 
+import android.app.Activity;
 import android.util.Log;
 
 import com.google.gson.Gson;
+import com.kaopiz.kprogresshud.KProgressHUD;
 
 import org.json.JSONObject;
 
@@ -26,6 +28,20 @@ public class AppConstants {
     public String authorization_key = "Authorization";
     public String get_violation_list = "policesystem/violation/listallviolations";
     public String issue_ticket_by_nin = "policesystem/ticket/issueticketByNin";
+    public String add_citizen_key = "add_citizen";
+    public String claim_fragment = "claim_fragment";
+    public String pay_challan_fragment = "pay_challan_fragment";
+    public String retailer_login_url = "retailsystem/rsu/login";
+    public String police_login_url = "policesystem/psu/login";
+    public String citizen_portal_login = "citizenportal/login";
+    public String get_challans = "citizenportal/getuserticket";
+    public String get_user_accounts = "citizenportal/getuseraccounts";
+    public String get_account_by_organization = "banksystem/account/getAccountByOrganization";
+    public String organization = "organization";
+    public String pay_challan_url = "citizenportal/payticket";
+    public String transfer_ammount = "citizenportal/transfertoaccount";
+    public String validate_accountnumber = "banksystem/account/getAccountByNumber";
+    public String medical_login_url = "";
     HashMap<String, String> apiParams;
     HashMap<String, String> headers;
 
@@ -63,6 +79,7 @@ public class AppConstants {
                 (new JSONObject(apiParams).toString()));
 
     }
+
     public RequestBody createRequestBody(HashMap<String ,String> adpterList) {
         Log.d(TAG, "createRequestBody: " + new JSONObject(adpterList).toString());
         return RequestBody.create(MediaType.parse("application/json; charset=utf-8"),
@@ -70,8 +87,36 @@ public class AppConstants {
 
     }
 
+    public RequestBody createRequestBody(JSONObject jsonObject) {
+        Log.d(TAG, "createRequestBody: " + jsonObject.toString());
+        return RequestBody.create(MediaType.parse("application/json; charset=utf-8"),
+                (jsonObject.toString()));
+
+    }
+
 
     public Gson getGson() {
         return new Gson();
+    }
+
+
+    KProgressHUD kProgressHUD;
+
+    public void showProgress(Activity activity) {
+        kProgressHUD = KProgressHUD.create(activity)
+                .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)
+                .setLabel("Please wait")
+//                .setDetailsLabel("Downloading data")
+                .setCancellable(true)
+                .setAnimationSpeed(2)
+                .setDimAmount(0.5f)
+                .show();
+    }
+
+    public void hideProgress() {
+        if (kProgressHUD != null) {
+            kProgressHUD.dismiss();
+            kProgressHUD = null;
+        }
     }
 }

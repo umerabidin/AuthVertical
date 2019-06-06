@@ -10,6 +10,7 @@ import android.support.annotation.NonNull;
 import com.example.authvertical.db_and_models.database.type_converters.PermissionsTypeConverter;
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity(tableName = "role")
@@ -33,14 +34,19 @@ public class Role {
     @SerializedName("bcPermissions")
     @ColumnInfo(name = "bcPermissions")
     private String bcPermissions;
+
+    @TypeConverters({PermissionsTypeConverter.class})
     @SerializedName("streamPermissions")
     @ColumnInfo(name = "streamPermissions")
-    private String streamPermissions;
+    private List<String> streamPermissions;
+
     @SerializedName("__v")
     @ColumnInfo(name = "__v")
     private Integer v;
 
     public List<String> getPermissions() {
+        if (permissions == null)
+            permissions = new ArrayList<>();
         return permissions;
     }
 
@@ -80,11 +86,13 @@ public class Role {
         this.bcPermissions = bcPermissions;
     }
 
-    public String getStreamPermissions() {
+    public List<String> getStreamPermissions() {
+        if (streamPermissions == null)
+            streamPermissions = new ArrayList<>();
         return streamPermissions;
     }
 
-    public void setStreamPermissions(String streamPermissions) {
+    public void setStreamPermissions(List<String> streamPermissions) {
         this.streamPermissions = streamPermissions;
     }
 

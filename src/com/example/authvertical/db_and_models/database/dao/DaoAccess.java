@@ -1,11 +1,14 @@
 package com.example.authvertical.db_and_models.database.dao;
 
 import android.arch.persistence.room.Dao;
+import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Update;
 
 import com.example.authvertical.db_and_models.login_entity.LoginEntity;
+
+import retrofit2.http.DELETE;
 
 
 /**
@@ -22,6 +25,8 @@ public interface DaoAccess {
     @Update
     int updateUser(LoginEntity loginEntity);
 
+    @Query("DELETE from login where email_address==:email_address")
+    void deleteUser(String email_address);
 
     @Query("Select * from login where email_address==:email_address")
     LoginEntity getUser(String email_address);

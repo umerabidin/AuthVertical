@@ -21,6 +21,8 @@ import android.widget.Toast;
 
 import com.digitalpersona.uareu.Reader;
 import com.digitalpersona.uareu.UareUException;
+import com.digitalpersona.uareu.dpfpddusbhost.DPFPDDUsbException;
+import com.digitalpersona.uareu.dpfpddusbhost.DPFPDDUsbHost;
 import com.example.authvertical.CaptureFingerprintActivity;
 import com.example.authvertical.GetReaderActivity;
 import com.example.authvertical.Globals;
@@ -28,8 +30,6 @@ import com.example.authvertical.R;
 import com.example.authvertical.db_and_models.login_entity.LoginEntity;
 import com.example.authvertical.utils.RoleEvent;
 import com.example.authvertical.utils.UserRoles;
-import com.digitalpersona.uareu.dpfpddusbhost.DPFPDDUsbException;
-import com.digitalpersona.uareu.dpfpddusbhost.DPFPDDUsbHost;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.reflect.TypeToken;
@@ -63,7 +63,7 @@ public class LoginActivity extends BaseActivity {
     CardView cvFingurePrint;
     private final int GENERAL_ACTIVITY_RESULT = 1;
     UsbDevice device;
-    String m_deviceName = null, name = null;
+    String m_deviceName = null, name = null, request_api = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,7 +92,17 @@ public class LoginActivity extends BaseActivity {
                     JSONObject roles = new JSONObject(role);
                     roleId = roles.optInt("roleId");
                     name = roles.optString("name");
-
+                    if (roleId == 1) {
+                        request_api = appConstants.login_url;
+                    } else if (roleId == 2) {
+                        request_api = appConstants.police_login_url;
+                    } else if (roleId == 3) {
+                        request_api = appConstants.medical_login_url;
+                    } else if (roleId == 4) {
+                        request_api = appConstants.retailer_login_url;
+                    } else if (roleId == 5) {
+                        request_api = appConstants.citizen_portal_login;
+                    }
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -110,7 +120,7 @@ public class LoginActivity extends BaseActivity {
     public void login(View view) {
         if (role == null) {
             Toast.makeText(this, "Please select your role first!", Toast.LENGTH_SHORT).show();
-        } else if (roleId == 3 || roleId == 4 || roleId == 5) {
+        } else if (roleId == 3 ) {
             Toast.makeText(this, "Under Development", Toast.LENGTH_SHORT).show();
         } else if (TextUtils.isEmpty(edEmail.getText().toString())) {
             edEmail.setError("Please enter your email!");
@@ -123,7 +133,7 @@ public class LoginActivity extends BaseActivity {
             appConstants.refreshBody();
             appConstants.addElements("id", edEmail.getText().toString());
             appConstants.addElements("password", edPassword.getText().toString());
-            Call<JsonElement> call = apiHelper.postRequest(appConstants.getHeaders(),appConstants.login_url, appConstants.createRequestBody());
+            Call<JsonElement> call = apiHelper.postRequest(appConstants.getHeaders(), request_api, appConstants.createRequestBody());
             call.enqueue(new Callback<JsonElement>() {
                 @Override
                 public void onResponse(Call<JsonElement> call, Response<JsonElement> response) {
@@ -134,14 +144,17 @@ public class LoginActivity extends BaseActivity {
                             try {
                                 LoginEntity loginEntity = new Gson().fromJson(jsonObject.toString(), LoginEntity.class);
                                 if (appDataBase.getDao().getUser(edEmail.getText().toString()) != null) {
-                                    appDataBase.getDao().updateUser(loginEntity);
-                                } else {
-                                    loginEntity.setEmail_address(edEmail.getText().toString());
-                                    loginEntity.setUser_role(name);
-                                    appDataBase.getDao().storeUser(loginEntity);
+                                    appDataBase.getDao().deleteUser(edEmail.getText().toString());
                                 }
+
+                                loginEntity.setEmail_address(edEmail.getText().toString());
+                                loginEntity.setUser_role(name);
+                                loginEntity.setToken("Bearer " + loginEntity.getToken());
+                                appDataBase.getDao().storeUser(loginEntity);
+
                                 myAppPref.saveString(appConstants.user_email, edEmail.getText().toString());
-                                Intent intent = new Intent(LoginActivity.this, com.example.authvertical.activities.Dashboard.class);
+
+                                Intent intent = new Intent(LoginActivity.this, Dashboard.class);
                                 intent.putExtra("data", new Gson().toJson(new RoleEvent(roleId, name)));
                                 startActivity(intent);
                                 finish();

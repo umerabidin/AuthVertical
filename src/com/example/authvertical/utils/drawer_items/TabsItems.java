@@ -23,30 +23,20 @@ public class TabsItems {
             tabs.add("Birth Certificate");
             tabs.add("Marriage Certificate");
             tabs.add("Death Certificate");
-
         } else if (position == 2) {
             tabs.add("Add New Officer");
             tabs.add("Verify CitizenInfo");
             tabs.add("Issue Challan");
         } else if (position == 3) {
-
-        } else if (position == 4) {
-
-        } else if (position == 5) {
             tabs.add("Add Doctor");
             tabs.add("Add Patient Visit Info");
             tabs.add("View Patient History");
+        } else if (position == 4) {
+            tabs.add("Retailer Pay");
+        } else if (position == 5) {
+            tabs.add("Traffic Challans");
+            tabs.add("Transfer Balance");
         }
-//        if (position == 1) {
-//            tabs.add ( "Add Doctor" );
-//            tabs.add ( "Add Patient Visit Info" );
-//            tabs.add ( "View Patient History" );
-//        } else if (position == 2) {
-//            tabs.add ( "Add New Officer" );
-//            tabs.add ( "Issue Challan" );
-//        } else if (position == 3) {
-//            tabs.add ( "Add CitizenInfo" );
-//        }
         return tabs;
     }
 

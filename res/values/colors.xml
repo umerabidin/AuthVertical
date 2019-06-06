@@ -12,4 +12,5 @@
     <color name="btn1_bg">#6DA2FF</color>
     <color name="btn2_bg">#FA6F42</color>
     <color name="btn3_bg">#00BCD4</color>
+    <color name="claim_btn_color">#F44336</color>
 </resources>

@@ -33,12 +33,12 @@ import com.digitalpersona.uareu.Quality;
 import com.digitalpersona.uareu.Reader;
 import com.digitalpersona.uareu.Reader.Priority;
 import com.digitalpersona.uareu.UareUException;
+import com.digitalpersona.uareu.jni.DpfjQuality;
 import com.example.authvertical.activities.BaseActivity;
 import com.example.authvertical.activities.Dashboard;
 import com.example.authvertical.utils.ImageUtil;
 import com.example.authvertical.utils.RoleEvent;
 import com.example.authvertical.utils.UserRoles;
-import com.digitalpersona.uareu.jni.DpfjQuality;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.jaiselrahman.hintspinner.HintSpinner;
@@ -87,7 +87,7 @@ public class CaptureFingerprintActivity extends BaseActivity implements OnItemSe
     @BindView(R.id.btnCaptureImage)
     CardView cvFingurePrint;
     boolean add_citizen = false;
-
+    String request_api = null;
     private void initializeActivity() {
         //getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         m_title = (TextView) findViewById(R.id.title);
@@ -144,7 +144,17 @@ public class CaptureFingerprintActivity extends BaseActivity implements OnItemSe
                     JSONObject roles = new JSONObject(role);
                     roleId = roles.optInt("roleId");
                     name = roles.optString("name");
-
+                    if (roleId == 1) {
+                        request_api = appConstants.login_url;
+                    } else if (roleId == 2) {
+                        request_api = appConstants.police_login_url;
+                    } else if (roleId == 3) {
+                        request_api = appConstants.medical_login_url;
+                    } else if (roleId == 4) {
+                        request_api = appConstants.retailer_login_url;
+                    } else if (roleId == 5) {
+                        request_api = appConstants.citizen_portal_login;
+                    }
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -477,7 +487,7 @@ public class CaptureFingerprintActivity extends BaseActivity implements OnItemSe
                 appConstants.refreshBody();
                 appConstants.addElements("fingerprint", base64Image.get(0));
                 Call<JsonElement> call = apiHelper.postRequest(appConstants.getHeaders(),
-                        appConstants.fingure_print_login_url,
+                        request_api,
                         appConstants.createRequestBody());
                 call.enqueue(new Callback<JsonElement>() {
                     @Override

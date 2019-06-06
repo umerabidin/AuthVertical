@@ -5,6 +5,7 @@ import android.arch.persistence.room.EntityDeletionOrUpdateAdapter;
 import android.arch.persistence.room.EntityInsertionAdapter;
 import android.arch.persistence.room.RoomDatabase;
 import android.arch.persistence.room.RoomSQLiteQuery;
+import android.arch.persistence.room.SharedSQLiteStatement;
 import android.database.Cursor;
 import com.example.authvertical.db_and_models.database.type_converters.UserTypeConverter;
 import com.example.authvertical.db_and_models.login_entity.LoginEntity;
@@ -20,6 +21,8 @@ public class DaoAccess_Impl implements DaoAccess {
   private final EntityInsertionAdapter __insertionAdapterOfLoginEntity;
 
   private final EntityDeletionOrUpdateAdapter __updateAdapterOfLoginEntity;
+
+  private final SharedSQLiteStatement __preparedStmtOfDeleteUser;
 
   public DaoAccess_Impl(RoomDatabase __db) {
     this.__db = __db;
@@ -104,6 +107,13 @@ public class DaoAccess_Impl implements DaoAccess {
         }
       }
     };
+    this.__preparedStmtOfDeleteUser = new SharedSQLiteStatement(__db) {
+      @Override
+      public String createQuery() {
+        final String _query = "DELETE from login where email_address==?";
+        return _query;
+      }
+    };
   }
 
   @Override
@@ -128,6 +138,25 @@ public class DaoAccess_Impl implements DaoAccess {
       return _total;
     } finally {
       __db.endTransaction();
+    }
+  }
+
+  @Override
+  public void deleteUser(String email_address) {
+    final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteUser.acquire();
+    __db.beginTransaction();
+    try {
+      int _argIndex = 1;
+      if (email_address == null) {
+        _stmt.bindNull(_argIndex);
+      } else {
+        _stmt.bindString(_argIndex, email_address);
+      }
+      _stmt.executeUpdateDelete();
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+      __preparedStmtOfDeleteUser.release(_stmt);
     }
   }
 

@@ -1,19 +1,22 @@
 package com.example.authvertical.fragments;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.example.authvertical.db_and_models.database.AppDataBase;
+import com.example.authvertical.db_and_models.login_entity.LoginEntity;
 import com.example.authvertical.network.APIHelper;
 import com.example.authvertical.utils.AppConstants;
 import com.example.authvertical.utils.DialogUtils;
 import com.example.authvertical.utils.MyAppPref;
 import com.kaopiz.kprogresshud.KProgressHUD;
-import java.util.Objects;
+
 import butterknife.ButterKnife;
 
 public abstract class BaseFragment extends Fragment implements View.OnClickListener {
@@ -22,6 +25,7 @@ public abstract class BaseFragment extends Fragment implements View.OnClickListe
     AppDataBase appDataBase;
     APIHelper apiHelper;
 MyAppPref myAppPref;
+    LoginEntity user;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,9 +34,10 @@ MyAppPref myAppPref;
         dialogUtils = DialogUtils.getInstance();
         appDataBase = AppDataBase.getAppDatabase(getActivity());
         myAppPref = MyAppPref.getInstance(getActivity());
+        user = appDataBase.getDao().getUser(myAppPref.getPref(appConstants.user_email, ""));
     }
 
-    public View onCreateView(@NonNull  LayoutInflater inflater, ViewGroup parent, Bundle savedInstanseState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanseState) {
         View view = provideYourFragmentView(inflater, parent, savedInstanseState);
         ButterKnife.bind(this, view);
         return view;
@@ -42,7 +47,7 @@ MyAppPref myAppPref;
     KProgressHUD kProgressHUD;
 
     protected void showProgress() {
-        kProgressHUD = KProgressHUD.create(Objects.requireNonNull(getActivity()))
+        kProgressHUD = KProgressHUD.create(getActivity())
                 .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)
                 .setLabel("Please wait")
 //                .setDetailsLabel("Downloading data")
@@ -60,13 +65,16 @@ MyAppPref myAppPref;
     }
 
     protected void displayReaderNotFound() {
-        android.app.AlertDialog.Builder alertDialogBuilder = new android.app.AlertDialog.Builder(getActivity());
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(getActivity());
         alertDialogBuilder.setTitle("Reader Not Found");
         alertDialogBuilder.setMessage("Plug in a reader and try again.").setCancelable(false).setPositiveButton("Ok",
-                (dialog, id) -> Objects.requireNonNull(getActivity()).finish());
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                    }
+                });
 
         android.app.AlertDialog alertDialog = alertDialogBuilder.create();
-        if (!Objects.requireNonNull(getActivity()).isFinishing()) {
+        if (!getActivity().isFinishing()) {
             alertDialog.show();
         }
     }

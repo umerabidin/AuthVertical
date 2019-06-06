@@ -28,6 +28,10 @@
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/1a55391ab2edffa60302f15f3e66de97/res/layout/design_navigation_item_subheader.xml"
     },
     {
+        "merged": "/Users/admin/Desktop/Android Studio/AuthVertical_b/build/intermediates/res/merged/debug/layout_challan_list_item.xml.flat",
+        "source": "/Users/admin/Desktop/Android Studio/AuthVertical_b/res/layout/challan_list_item.xml"
+    },
+    {
         "merged": "/Users/admin/Desktop/Android Studio/AuthVertical_b/build/intermediates/res/merged/debug/color_mtrl_fab_ripple_color.xml.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/1a55391ab2edffa60302f15f3e66de97/res/color/mtrl_fab_ripple_color.xml"
     },
@@ -290,6 +294,10 @@
     {
         "merged": "/Users/admin/Desktop/Android Studio/AuthVertical_b/build/intermediates/res/merged/debug/layout_fragment_view_citizen.xml.flat",
         "source": "/Users/admin/Desktop/Android Studio/AuthVertical_b/res/layout/fragment_view_citizen.xml"
+    },
+    {
+        "merged": "/Users/admin/Desktop/Android Studio/AuthVertical_b/build/intermediates/res/merged/debug/layout_fragment_retailer_pay.xml.flat",
+        "source": "/Users/admin/Desktop/Android Studio/AuthVertical_b/res/layout/fragment_retailer_pay.xml"
     },
     {
         "merged": "/Users/admin/Desktop/Android Studio/AuthVertical_b/build/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
@@ -1002,6 +1010,10 @@
     {
         "merged": "/Users/admin/Desktop/Android Studio/AuthVertical_b/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/e66f026c274b8014f8f9af1d96fb4c09/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/admin/Desktop/Android Studio/AuthVertical_b/build/intermediates/res/merged/debug/layout_fragment_view_challans.xml.flat",
+        "source": "/Users/admin/Desktop/Android Studio/AuthVertical_b/res/layout/fragment_view_challans.xml"
     },
     {
         "merged": "/Users/admin/Desktop/Android Studio/AuthVertical_b/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",

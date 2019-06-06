@@ -107,7 +107,7 @@
         <activity
             android:name="com.example.authvertical.activities.Dashboard"
             android:configChanges="orientation|screenSize"
-            android:label="@string/title_activity_dashboard"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.authvertical.utils.ImagePickerActivity" />
         <!-- cache directory file provider paths -->

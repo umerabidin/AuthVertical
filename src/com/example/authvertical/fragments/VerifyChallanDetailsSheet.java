@@ -15,9 +15,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.authvertical.R;
 import com.example.authvertical.db_and_models.database.AppDataBase;
+import com.example.authvertical.db_and_models.login_entity.LoginEntity;
 import com.example.authvertical.network.APIHelper;
 import com.example.authvertical.utils.AppConstants;
 import com.example.authvertical.utils.MyAppPref;
@@ -56,6 +58,11 @@ public class VerifyChallanDetailsSheet extends BottomSheetDialogFragment impleme
         return fragment;
     }
 
+    LoginEntity user;
+    APIHelper apiHelper;
+    AppConstants appConstants;
+    MyAppPref myAppPref;
+    AppDataBase appDataBase;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,6 +72,11 @@ public class VerifyChallanDetailsSheet extends BottomSheetDialogFragment impleme
             adapterList = new Gson().fromJson(getArguments().getString("adapterList"), type);
             requestList = new Gson().fromJson(getArguments().getString("requestList"), type);
         }
+        apiHelper = APIHelper.getInstance();
+        appConstants = AppConstants.getInstance();
+        myAppPref = MyAppPref.getInstance(getActivity());
+        appDataBase = AppDataBase.getAppDatabase(getActivity());
+        user = appDataBase.getDao().getUser(myAppPref.getPref(appConstants.user_email, ""));
     }
 
     @Override
@@ -89,17 +101,17 @@ public class VerifyChallanDetailsSheet extends BottomSheetDialogFragment impleme
 
     @Override
     public void onClick(View v) {
-        APIHelper apiHelper = APIHelper.getInstance();
-        AppConstants appConstants = AppConstants.getInstance();
-        MyAppPref myAppPref = MyAppPref.getInstance(getActivity());
-        AppDataBase appDataBase = AppDataBase.getAppDatabase(getActivity());
-        appConstants.addHeader("Authorization", "Bearer " + appDataBase.getDao().getUser(myAppPref.getPref(appConstants.user_email, "")).getToken());
 
+        appConstants.addHeader(appConstants.authorization_key, user.getToken());
+
+        appConstants.showProgress(getActivity());
+        requestList.put("violationDateTime", String.valueOf(System.currentTimeMillis()));
         Call<JsonElement> call = apiHelper.postRequest(appConstants.getHeaders(), appConstants.issue_ticket_by_nin,
                 appConstants.createRequestBody(requestList));
         call.enqueue(new Callback<JsonElement>() {
             @Override
             public void onResponse(Call<JsonElement> call, Response<JsonElement> response) {
+                appConstants.hideProgress();
                 if (response.isSuccessful()) {
                     try {
                         JSONObject body = new JSONObject(response.body().toString());
@@ -113,7 +125,8 @@ public class VerifyChallanDetailsSheet extends BottomSheetDialogFragment impleme
 
             @Override
             public void onFailure(Call<JsonElement> call, Throwable t) {
-
+                appConstants.hideProgress();
+                Toast.makeText(getActivity(), t.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }

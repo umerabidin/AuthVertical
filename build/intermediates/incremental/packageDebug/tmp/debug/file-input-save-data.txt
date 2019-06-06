@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jun 05 23:49:45 PKT 2019
+#Thu Jun 06 22:16:29 PKT 2019
 5.base=/Users/admin/Desktop/Android Studio/AuthVertical_b/build/intermediates/transforms/mergeJniLibs/debug/0
 22.path=lib/armeabi/libdpfr7.so
 32.set=NATIVE_RESOURCE

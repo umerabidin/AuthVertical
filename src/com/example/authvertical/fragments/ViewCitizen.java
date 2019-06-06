@@ -182,7 +182,7 @@ public class ViewCitizen extends BaseFragment {
         showProgress();
         appConstants.refreshBody();
         appConstants.addElements("fingerprint", scanned_image_base64.replace("data:image/jpeg;base64,", ""));
-        appConstants.addHeader("Authorization", "Bearer " + appDataBase.getDao().getUser(myAppPref.getPref(appConstants.user_email, "")).getToken());
+        appConstants.addHeader(appConstants.authorization_key,user.getToken());
         Call<JsonElement> call = apiHelper.postRequest(appConstants.getHeaders(),
                 appConstants.get_user_by_figureprint, appConstants.createRequestBody());
         call.enqueue(new Callback<JsonElement>() {

@@ -11,7 +11,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/btnAddCitizen">
+        android:layout_above="@+id/btnTransfer">
 
 
         <LinearLayout
@@ -26,8 +26,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_20sdp"
+                android:id="@+id/tvTitle"
                 android:layout_marginBottom="@dimen/_20sdp"
                 android:padding="@dimen/_10sdp"
+                android:textAllCaps="true"
                 android:text="Transfer Balance"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_20sdp" />
@@ -40,61 +42,27 @@
                 android:textSize="@dimen/_15sdp"
                 android:textStyle="bold" />
 
-            <android.support.v7.widget.AppCompatSpinner
-                style="@style/spinner_style"
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp" />
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/gradient_spinner">
+
+                <com.jaiselrahman.hintspinner.HintSpinner
+                    android:id="@+id/spinnerIBAN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_50sdp"
                 android:text="TO:"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_15sdp"
                 android:textStyle="bold" />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:background="@drawable/input_field_no_background_color"
-                android:hint="IBAN"
-                android:padding="@dimen/_10sdp"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_12sdp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:background="@drawable/input_field_no_background_color"
-                android:hint="Bank Id"
-                android:padding="@dimen/_10sdp"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_12sdp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:background="@drawable/input_field_no_background_color"
-                android:hint="Branch Id"
-                android:padding="@dimen/_10sdp"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_12sdp" />
-
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:background="@drawable/input_field_no_background_color"
-                android:hint="Account Number"
-                android:padding="@dimen/_10sdp"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_12sdp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -103,25 +71,31 @@
                 android:background="@drawable/input_field_no_background_color"
                 android:hint="IBAN"
                 android:padding="@dimen/_10sdp"
+                android:id="@+id/tvIBAN"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_12sdp" />
 
-            <android.support.v7.widget.AppCompatSpinner
-                android:id="@+id/genderSpinner"
-                style="@style/spinner_style"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:background="@drawable/input_field_no_background_color"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:hint="Date Created"
+                android:hint="Amount"
+                android:id="@+id/tvAmout"
                 android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/input_field_no_background_color"
+                android:gravity="top"
+                android:hint="Comment (Optional)"
+                android:padding="@dimen/_10sdp"
+                android:id="@+id/tvComments"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_12sdp" />
 
@@ -131,7 +105,7 @@
 
 
     <android.support.v7.widget.CardView
-        android:id="@+id/btnAddCitizen"
+        android:id="@+id/btnTransfer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -148,7 +122,8 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:padding="@dimen/_13sdp"
-            android:text="Add"
+            android:text="Transfer"
+            android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="@dimen/_15sdp"
             android:textStyle="bold" />

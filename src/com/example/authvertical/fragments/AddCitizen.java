@@ -297,7 +297,7 @@ public class AddCitizen extends BaseFragment implements AdapterView.OnItemSelect
                 appConstants.addElements("bloodGroup", bloodGroup);
                 appConstants.addElements("maritalStatus", martialStatus);
                 HashMap<String, String> headers = new HashMap<>();
-                headers.put("Authorization", "Bearer " + appDataBase.getDao().getUser(myAppPref.getPref(appConstants.user_email, "")).getToken());
+                headers.put("Authorization",appDataBase.getDao().getUser(myAppPref.getPref(appConstants.user_email, "")).getToken());
 
 //                Call<JsonElement> call = apiHelper.addCitizen(appConstants.add_citizen_url, headers,
 //                        edFirstName.getText().toString(),

@@ -31,6 +31,7 @@ import com.example.authvertical.CaptureFingerprintActivity;
 import com.example.authvertical.GetReaderActivity;
 import com.example.authvertical.Globals;
 import com.example.authvertical.R;
+import com.example.authvertical.activities.Dashboard;
 import com.example.authvertical.db_and_models.get_citizen.GetCitizenEntity;
 import com.example.authvertical.db_and_models.violations_list.Violation;
 import com.google.gson.Gson;
@@ -90,6 +91,12 @@ public class IssueTrafficChallan extends BaseFragment {
         return fragment;
     }
 
+    Activity activity;
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        activity = getActivity();
+    }
 
     @Override
     public View provideYourFragmentView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
@@ -103,14 +110,14 @@ public class IssueTrafficChallan extends BaseFragment {
 
         if (m_reader == null) {
             Intent i = new Intent(getActivity(), GetReaderActivity.class);
-            i.putExtra("device_name", m_deviceName);
+            i.putExtra(appConstants.device_name, m_deviceName);
             startActivityForResult(i, GENERAL_ACTIVITY_RESULT);
 
         } else {
             Intent i = new Intent(getActivity(),
                     CaptureFingerprintActivity.class);
-            i.putExtra("add_citizen", true);
-            i.putExtra("device_name", m_deviceName);
+            i.putExtra(appConstants.add_citizen_key, true);
+            i.putExtra(appConstants.device_name, m_deviceName);
             startActivityForResult(i, GENERAL_ACTIVITY_RESULT);
         }
         btnIssueChallan.setOnClickListener(this);
@@ -203,7 +210,8 @@ public class IssueTrafficChallan extends BaseFragment {
                             mPermissionIntent = PendingIntent.getBroadcast(applContext, 0, new Intent(ACTION_USB_PERMISSION), 0);
                             IntentFilter filter = new IntentFilter(ACTION_USB_PERMISSION);
                             applContext.registerReceiver(mUsbReceiver, filter);
-                            DPFPDDUsbHost.DPFPDDUsbCheckAndRequestPermissions(applContext, mPermissionIntent, m_deviceName);
+                            if (DPFPDDUsbHost.DPFPDDUsbCheckAndRequestPermissions(applContext, mPermissionIntent, m_deviceName)) {
+                            }
 
                         }
                     } catch (UareUException e1) {
@@ -224,7 +232,7 @@ public class IssueTrafficChallan extends BaseFragment {
                         displayReaderNotFound();
                     } else if (error_string.equalsIgnoreCase("The reader is not working properly.")) {
                         Intent i = new Intent(getActivity(), GetReaderActivity.class);
-                        i.putExtra("device_name", m_deviceName);
+                        i.putExtra(appConstants.device_name, m_deviceName);
                         startActivityForResult(i, GENERAL_ACTIVITY_RESULT);
                     }
                 } else {
@@ -243,7 +251,7 @@ public class IssueTrafficChallan extends BaseFragment {
         showProgress();
         appConstants.refreshBody();
         appConstants.addElements("fingerprint", scanned_image_base64.replace("data:image/jpeg;base64,", ""));
-        appConstants.addHeader("Authorization", "Bearer " + appDataBase.getDao().getUser(myAppPref.getPref(appConstants.user_email, "")).getToken());
+        appConstants.addHeader(appConstants.authorization_key,user.getToken());
         Call<JsonElement> call = apiHelper.postRequest(appConstants.getHeaders(),
                 appConstants.get_user_by_figureprint, appConstants.createRequestBody());
         call.enqueue(new Callback<JsonElement>() {
@@ -280,7 +288,7 @@ public class IssueTrafficChallan extends BaseFragment {
         edLicenseNumber.setText(getCitizenEntity.getType().getId());
 
         appConstants.refreshBody();
-        appConstants.addHeader(appConstants.authorization_key, "Bearer " + appDataBase.getDao().getUser(myAppPref.getPref(appConstants.user_email, "")).getToken());
+        appConstants.addHeader(appConstants.authorization_key, user.getToken());
         Call<JsonElement> call = apiHelper.getRequest(appConstants.getHeaders(), appConstants.get_violation_list);
         call.enqueue(new Callback<JsonElement>() {
             @Override
@@ -324,7 +332,7 @@ public class IssueTrafficChallan extends BaseFragment {
                     JSONObject body = new JSONObject(item);
                     String fine = body.optString("fine");
                     violation_type = body.optString("name");
-                    violation_id = body.optString("_id");
+                    violation_id = body.optString("id");
                     edFineImposed.setText("" + fine);
 
                 } catch (JSONException e) {
@@ -363,10 +371,10 @@ public class IssueTrafficChallan extends BaseFragment {
                     if (intent.getBooleanExtra(UsbManager.EXTRA_PERMISSION_GRANTED, false)) {
                         if (device != null) {
                             //call method to set up device communication
-                            Intent i = new Intent(getActivity(),
+                            Intent i = new Intent(activity,
                                     CaptureFingerprintActivity.class);
-                            i.putExtra("device_name", m_deviceName);
-                            i.putExtra("add_citizen", true);
+                            i.putExtra(appConstants.device_name, m_deviceName);
+                            i.putExtra(appConstants.add_citizen_key, true);
                             startActivityForResult(i, GENERAL_ACTIVITY_RESULT);
                         }
                     } else {

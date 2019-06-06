@@ -95,7 +95,7 @@
         <activity
             android:name=".activities.Dashboard"
             android:configChanges="orientation|screenSize"
-            android:label="@string/title_activity_dashboard"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".utils.ImagePickerActivity" />
         <!-- cache directory file provider paths -->

@@ -631,6 +631,7 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color claim_btn_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -1840,10 +1841,13 @@ id bottom
 id bottomLayout
 id btnAddCitizen
 id btnCaptureImage
+id btnClaim
 id btnConfirm
 id btnIssueChallan
+id btnPayChallan
 id btnScanFingure
 id btnText
+id btnTransfer
 id buttonPanel
 id cancel_action
 id capture_fingerprint
@@ -1951,6 +1955,7 @@ id layout_aspect_ratio
 id layout_rotate_wheel
 id layout_scale_wheel
 id left
+id liButtons
 id line1
 id line3
 id list
@@ -2025,6 +2030,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinnerIBAN
 id split_action_bar
 id spread
 id spread_inside
@@ -2073,16 +2079,23 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tvAmout
 id tvCancel
 id tvCitizen
+id tvComments
+id tvDate
 id tvDetails
 id tvDoctor
+id tvFine
 id tvHelloText
+id tvIBAN
 id tvItem
 id tvLogout
 id tvName
 id tvPickImage
 id tvPolice
+id tvReason
+id tvStatus
 id tvTakeImage
 id tvTitle
 id tvUserName
@@ -2096,6 +2109,7 @@ id up
 id useLogo
 id user_image
 id verification
+id viewChallanList
 id viewIssueChallanDetail
 id view_offset_helper
 id view_overlay
@@ -2170,6 +2184,7 @@ layout activity_select_role
 layout activity_test
 layout app_bar_dashboard
 layout chall_detail_item
+layout challan_list_item
 layout content_dashboard
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2194,8 +2209,10 @@ layout fragment_add_police_officer
 layout fragment_birth_certificate
 layout fragment_death_certificate
 layout fragment_marriage_certificate
+layout fragment_retailer_pay
 layout fragment_transfer_balance
 layout fragment_verify_challan_detail
+layout fragment_view_challans
 layout fragment_view_citizen
 layout fragment_view_patient_history
 layout fragment_welcome_screen
@@ -2331,7 +2348,6 @@ string select_role_hint
 string serial_number
 string status_bar_notification_info_overflow
 string stream_image
-string title_activity_dashboard
 string title_activity_main
 string toast_image_intent_null
 string ucrop_crop

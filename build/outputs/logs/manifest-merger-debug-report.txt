@@ -230,7 +230,7 @@ ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xm
 activity#com.example.authvertical.activities.Dashboard
 ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:95:9-99:59
 	android:label
-		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:98:13-61
+		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:98:13-45
 	android:configChanges
 		ADDED from /Users/admin/Desktop/Android Studio/AuthVertical_b/AndroidManifest.xml:97:13-59
 	android:theme
